@@ -17,6 +17,16 @@ def print_hi(name):
     print(text)  # Press Ctrl+F8 to toggle the breakpoint.
     tools = Tools().repair_print(text)
     print(tools)
+    # Use a breakpoint in the code line below to debug your script.
+    text = f'Hi, {name}'
+    print(text)  # Press Ctrl+F8 to toggle the breakpoint.
+    tools = Tools().repair_print(text)
+    print(tools)
+    # Use a breakpoint in the code line below to debug your script.
+    text = f'Bye, {name}'
+    print(text)  # Press Ctrl+F8 to toggle the breakpoint.
+    tools = Tools().repair_print(text)
+    print(tools)
 
 
 # Press the green button in the gutter to run the script.
